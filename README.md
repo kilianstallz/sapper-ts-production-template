@@ -1,6 +1,13 @@
-# SapperTs Tailwind Storybook Template
+# production-ready Sapper Template
 
 The production ready [Sapper](https://github.com/sveltejs/sapper) template with Tailwindcss with Purgecss & Storybook with full Typescript support, available for Rollup only.
+
+### Features
+
+- Full Typescript Support
+- Storybook
+- Cypress
+- Tailwindcss & Purgecss
 
 
 ## Getting started
