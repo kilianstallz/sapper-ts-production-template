@@ -1,6 +1,6 @@
 # sapper-ts-template
 
-The new default [Sapper](https://github.com/sveltejs/sapper) template, available for Rollup only.
+The production ready [Sapper](https://github.com/sveltejs/sapper) template with Tailwindcss with Purgecss & Story with full Typescript support, available for Rollup only.
 
 
 ## Getting started
