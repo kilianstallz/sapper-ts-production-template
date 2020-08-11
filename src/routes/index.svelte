@@ -1,7 +1,6 @@
-<style>
+<style lang="postcss">
 	h1, figure, p {
-		text-align: center;
-		margin: 0 auto;
+		@apply text-center;
 	}
 
 	h1 {
@@ -13,12 +12,14 @@
 
 	figure {
 		margin: 0 0 1em 0;
+		display: flex;
+		flex-direction: column;
 	}
 
 	img {
 		width: 100%;
 		max-width: 400px;
-		margin: 0 0 1em 0;
+		@apply mx-auto;
 	}
 
 	p {
@@ -44,7 +45,7 @@
 <h1>{title}</h1>
 
 <figure>
-	<img alt='Success Kid' src='successkid.jpg'>
+	<img class="mx-auto" alt='Success Kid' src='successkid.jpg'>
 	<figcaption>Have fun with Sapper!</figcaption>
 </figure>
 

@@ -28,7 +28,20 @@ export default {
 				'process.env.NODE_ENV': JSON.stringify(mode)
 			}),
 			svelte({
-				preprocess: autoPreprocess(),
+				preprocess: autoPreprocess({
+					postcss: {
+						plugins: [
+							require('postcss-import')(),
+							require('tailwindcss')(),
+							require('postcss-preset-env')({
+								// Full list of features: https://github.com/csstools/postcss-preset-env/blob/master/src/lib/plugins-by-id.js#L36
+								features: {
+									'nesting-rules': true, // delete if you don’t want nesting (optional)
+								},
+							}),
+						],
+					}
+				}),
 				dev,
 				hydratable: true,
 				emitCss: true
@@ -75,7 +88,20 @@ export default {
 				'process.env.NODE_ENV': JSON.stringify(mode)
 			}),
 			svelte({
-				preprocess: autoPreprocess(),
+				preprocess: autoPreprocess({
+					postcss: {
+						plugins: [
+							require('postcss-import')(),
+							require('tailwindcss')(),
+							require('postcss-preset-env')({
+								// Full list of features: https://github.com/csstools/postcss-preset-env/blob/master/src/lib/plugins-by-id.js#L36
+								features: {
+									'nesting-rules': true, // delete if you don’t want nesting (optional)
+								},
+							}),
+						],
+					}
+				}),
 				generate: 'ssr',
 				hydratable: true,
 				dev
