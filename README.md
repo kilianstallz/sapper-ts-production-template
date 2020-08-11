@@ -8,6 +8,7 @@ The production ready [Sapper](https://github.com/sveltejs/sapper) template with 
 - Storybook
 - Cypress
 - Tailwindcss & Purgecss
+- Full Semantic-Versioning Tooling
 
 
 ## Getting started
@@ -33,6 +34,16 @@ Open up [localhost:3000](http://localhost:3000) and start clicking around.
 
 Consult [sapper.svelte.dev](https://sapper.svelte.dev) for help getting started.
 
+## Semantic versioning
+
+After finishing your work, stage your changes so you can run the following command in order to create a standard commit:
+```bash
+npm run commit
+```
+
+After the commit push your changes.
+
+To generate a CHANGELOG run `npm run release` to create a standard-changelog and bump the version of the project.
 
 ## Structure
 
