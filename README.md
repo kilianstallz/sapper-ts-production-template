@@ -1,6 +1,6 @@
 # SapperTs Tailwind Storybook Template
 
-The production ready [Sapper](https://github.com/sveltejs/sapper) template with Tailwindcss with Purgecss & Story with full Typescript support, available for Rollup only.
+The production ready [Sapper](https://github.com/sveltejs/sapper) template with Tailwindcss with Purgecss & Storybook with full Typescript support, available for Rollup only.
 
 
 ## Getting started
@@ -9,7 +9,7 @@ The production ready [Sapper](https://github.com/sveltejs/sapper) template with 
 
 Clone the repository into your preferred location.
 ```bash
-git clone https://github.com/kilianstallz/sapper-ts.git ts-sapper-app
+git clone https://github.com/kilianstallz/sapper-ts-production-template.git ts-sapper-app
 ```
 
 ### Running the project
