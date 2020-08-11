@@ -1,7 +1,7 @@
 {
   "name": "sapper-ts",
   "description": "sapper-ts",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "scripts": {
     "dev": "run-p start:dev watch:css",
     "start:dev": "sapper dev",
